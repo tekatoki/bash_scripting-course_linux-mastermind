@@ -7,7 +7,7 @@ fi
 
 total=0
 for f in `ls $1`; do
-    name="$1/$F"
+    name="$1/$f"
     if [ -f $name ]; then
         bytes=`ls -l $name | cut -d ' ' -f 5`
         echo "The file $name has $bytes" | tr -s /

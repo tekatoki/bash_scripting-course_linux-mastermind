@@ -3,7 +3,7 @@
 # However there will be a number to identifacate the file.
 
 # Example:
-# Stdin: ./Script_Automation_touch.sh file_name txt 4 /test
+# Stdin: ./Script_Automation_touch.sh file_name txt 4 test/
 # Stdout: 
 # The file file_name01.txt was created succesfuly
 # The file file_name02.txt was created succesfuly
